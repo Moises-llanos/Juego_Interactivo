@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Matematicas ||</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="icon" href="../assets/img/triangulo-png.png">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="header__logo">
+                <img src="https://www.teahub.io/photos/full/359-3593413_thumb-image-imagenes-png-de-matematicas.png" alt="logo" width="120">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a class="items" href="#"><label for="perimetro">Cuadrado</label></a>
+                    </li>
+                    <li>
+                        <a class="items" href="#"><label for="#">Triangulo</label></a>
+                    </li>
+                    <li>
+                        <a class="items" href="#"><label for="#">Cirunferencia</label></a>
+                    </li>
+                    <li>
+                        <a class="items4" href="#">Dark</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="figuras">
+        <article class="cuadrado">
+            <form>
+                <div class="contenedor__img">
+                    <div class="img"></div>
+                </div>
+                <input type="text" id="lado1" placeholder="Lado">
+                <input type="text" id="lado2" placeholder="Lado">
+                <button type="submit" id="perimetro2">perimetro</button>
+                <button type="submit" id="area2">area</button>
+                <p></p>
+            </form>
+        </article>
+
+        <article class="triangulo">
+            <div class="contenedor__img">
+                <img src="../assets/img/triangulo-png.png" alt="" width="120">
+            </div>
+            <input type="text" id="baseT" placeholder="Base">
+            <input type="text" id="lado1T" placeholder="lado">
+            <input type="text" id="lado2T" placeholder="lado">
+            <button type="submit" id="perimetroT">perimetro</button>
+            <button type="submit" id="areaT">area</button>
+            <p class="parrafo"></p>
+        </article>
+
+        <article class="circunferencia">
+            <div class="contenedor__img">
+                <div class="circle"></div>
+            </div>
+            <input type="text" id="radio" placeholder="Radio">
+            <input type="text" id="diametro" placeholder="Diametro">
+            <button type="submit" id="">perimetro</button>
+            <button type="submit" id="radioC">area</button>
+            <p id="circle"></p>
+        </article>
+
+        <button class="flotante">Clear Results</button>
+    </section>
+
+    <script src="../types/app.js"></script>
+</body>
+
+</html>

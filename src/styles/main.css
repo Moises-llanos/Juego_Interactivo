@@ -1,0 +1,159 @@
+:root {
+    --color-body: #4460BE;
+    --color-items: #48e0a6;
+    --color-header: #6c82dd;
+    --color-fuentes: white;
+}
+
+body {
+    background: var(--color-body);
+    font-family: 'Source sans pro', cursive;
+    ;
+}
+
+p {
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.header {
+    height: 70px;
+    background: #32438A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li {
+    height: inherit;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #6c82dd;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+.items:hover {
+    background: #48e0a6;
+}
+
+.items4 {
+    display: block;
+    position: absolute;
+    width: 57px;
+    height: 40px;
+    top: 10px;
+}
+
+.items4:hover {
+    background: #181A35;
+}
+
+.figuras {
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient(90deg, #2C397A 0%, #4663C3);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 100px auto;
+    box-shadow: 5px 2px 19px 0px;
+    position: relative;
+}
+
+.figuras article {
+    width: 300px;
+    height: 340px;
+    border: 2px solid #6c82dd;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.figuras input {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 23px 5px 23px;
+    display: block;
+    margin: 10px;
+    margin: 10px auto;
+}
+
+.figuras button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 6px;
+    text-transform: uppercase;
+    background: #77d3b0;
+}
+
+.figuras button:hover {
+    padding: 7px 24px 7px 24px;
+    background: #48e0a6;
+    color: white;
+}
+
+.cuadrado {
+    text-align: center;
+}
+
+.cuadrado .contenedor__img .img {
+    margin: 15px auto 20px auto;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #48e0a6;
+    border-radius: 6px;
+}
+
+.triangulo {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.circunferencia {
+    text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #48e0a6;
+    border-radius: 50%;
+    margin: 10px auto 10px auto;
+}
+
+
+/* Button flotante */
+
+.flotante {
+    position: absolute;
+    bottom: 15px;
+    right: 17px;
+}
+
+
+/* contenedor */
+
+.contenedor {
+    max-width: 1100px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
