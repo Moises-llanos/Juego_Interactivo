@@ -91,10 +91,20 @@ const areaCircunferencia = () => {
 
 
 const perimetroCircunferencia = () => {
-
+    const perimetro = document.querySelector('#diametroC')
+    perimetro.addEventListener('click', () => {
+        const value = parseInt(document.querySelector('#diametro').value);
+        if (isNaN(value)) return alert('No puede venir vacio o ser un string')
+        const perim = Number((Math.PI * value).toFixed(4))
+        const p = document.querySelector('#circle');
+        localStorage.setItem(perim, perim)
+        const dato = localStorage.getItem(perim)
+        p.innerHTML = `El perimetro del circulo es: ${dato}`
+    })
 }
 
 areaCircunferencia()
+perimetroCircunferencia()
 
 //Fin circunferencia 
 
